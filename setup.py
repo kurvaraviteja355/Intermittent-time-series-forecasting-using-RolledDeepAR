@@ -1,16 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pytorchts',
+    name='pts',
     version='0.5.X',
     description="PyTorch Probabilistic Time Series Modeling framework",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 
-    url='https://github.com/kashif/pytorch-ts',
+    url='https://github.com/kurvaraviteja355/Intermittent-time-series-forecasting-using-RolledDeepAR',
     license='MIT',
-
-    packages=find_packages(exclude=["tests"]),
+    packages=['pts'],
     include_package_data=True,
     zip_safe=True,
     python_requires=">=3.6",
