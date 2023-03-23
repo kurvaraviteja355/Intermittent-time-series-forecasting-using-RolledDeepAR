@@ -15,8 +15,14 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         'pydantic==1.4.0',
+        'holidays',
+        'numpy',
+        'pandas',
+        'scipy',
+        'tqdm',
         'python-rapidjson',
         'tqdm',
+        'tensorboard',
         "gluonts",],
 
     test_suite='tests',
