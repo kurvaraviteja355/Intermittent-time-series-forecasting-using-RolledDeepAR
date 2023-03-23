@@ -9,7 +9,7 @@ setup(
 
     url='https://github.com/kurvaraviteja355/Intermittent-time-series-forecasting-using-RolledDeepAR',
     license='MIT',
-    packages=find_packages(include=["pts"]),
+    packages=find_packages(include=["tests"]),
     include_package_data=True,
     zip_safe=True,
     python_requires=">=3.6",
