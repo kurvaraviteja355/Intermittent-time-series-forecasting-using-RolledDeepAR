@@ -13,21 +13,6 @@ setup(
     include_package_data=True,
     zip_safe=True,
     python_requires=">=3.6",
-    install_requires = [
-        'torch==1.7.1',
-        'holidays',
-        'numpy',
-        'pandas',
-        'scipy',
-        'tqdm',
-        'pydantic==1.4.0',
-        'matplotlib',
-        'python-rapidjson',
-        'tensorboard',
-        'pytorch-warmup',
-        'Gluonts',
-    ],
-
     test_suite='tests',
     tests_require = [
         'flake8',
