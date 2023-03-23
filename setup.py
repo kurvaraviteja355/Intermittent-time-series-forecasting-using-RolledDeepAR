@@ -14,10 +14,8 @@ setup(
     zip_safe=True,
     python_requires=">=3.6",
     install_requires=[
-        "torch>=1.8.0",
         'pydantic==1.4.0',
         'python-rapidjson',
-        'pytorch-warmup',
         'tqdm',
         "gluonts",],
 
