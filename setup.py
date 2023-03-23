@@ -16,7 +16,7 @@ setup(
     install_requires=[
         'pydantic==1.4.0',
         'holidays',
-        'numpy',
+        'numpy==1.23.0',
         'pandas',
         'scipy',
         'tqdm',
